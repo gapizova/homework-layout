@@ -25,3 +25,15 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.wrapper-hero {
+  max-width: 1920px;
+  width: 100%;
+  padding-top: 40em;
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: url('/src/images/hero.png');
+  background-repeat: no-repeat;
+}
