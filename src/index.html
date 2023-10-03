@@ -4,30 +4,42 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap"
+	      rel="stylesheet">
 	<link rel="stylesheet" href="styles/style.css">
 	<title>Fashion</title>
 </head>
 <body>
-<header>
-	<p class="logo">FASHION</p>
-	<nav class="menu">
-		<ul class="menu-list">
-			<li class="menu-item"><a href="#">Home</a></li>
-			<li class="menu-item"><a href="#">Recipes</a></li>
-			<li class="menu-item"><a href="#">Article</a></li>
-			<li class="menu-item"><a href="#">Contact</a></li>
-			<li class="menu-item"><a href="#">Purchase</a></li>
-		</ul>
-	</nav>
+<header class="header">
+	<div class="container-menu">
+		<p class="logo">FASHION</p>
+		<nav class="menu">
+			<ul class="menu-list">
+				<li class="menu-item"><a href="#">Home</a></li>
+				<li class="menu-item"><a href="#">Recipes</a></li>
+				<li class="menu-item"><a href="#">Article</a></li>
+				<li class="menu-item"><a href="#">Contact</a></li>
+				<li class="menu-item"><a href="#">Purchase</a></li>
+			</ul>
+		</nav>
+	</div>
 	<section class="hero wrapper-hero">
 		<h1>Vehicle</h1>
 		<p class="hero-description">One of Saturn’s largest rings may be newer than anyone</p>
 		<p class="hero-data">June 6, 2019 By Rickie Baroch 4 comments</p>
 	</section>
 </header>
-<section class="block-posts">
-	<h2 class="hidden-title">Posts</h2>
-	<div class="group-post">
+<section class="main-container">
+	<section class="block-posts wrapper-block-posts">
+		<h2 class="hidden-title">Posts</h2>
 		<div class="box-posts">
 			<a href="#" class="link-card-post">
 				<figure class="card-post">
@@ -89,8 +101,8 @@
 					<p class="card-post-data">June 6, 2019 By Rickie Baroch</p>
 				</figure>
 			</a>
-			<a href="#" class="link-card-post">
-				<figure class="card-post big-card">
+			<a href="#" class="link-card-post big-card">
+				<figure class="card-post">
 					<div class="image-post">
 						<img src="/src/images/card7.png" alt="One of Saturn’s largest rings may be newer than anyone">
 					</div>
@@ -99,7 +111,8 @@
 					<p class="card-post-data">June 6, 2019 By Rickie Baroch</p>
 					<p class="card-post-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
 						doloremque
-						laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+						laudantium, totam rem sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+						doloremque
 						laudantium, totam rem</p>
 				</figure>
 			</a>
@@ -144,158 +157,159 @@
 				</figure>
 			</a>
 		</div>
-	</div>
-	<nav class="posts-pagination">
-		<div class="pagination-list">
-			<a href="#">&laquo; OLDER POST</a>
-			<a href="#">1</a>
-			<a href="#">2</a>
-			<a href="#">3</a>
-			<a href="#">...</a>
-			<a href="#">8</a>
-			<a href="#">NEXT POST &raquo;</a>
-		</div>
-	</nav>
-</section>
-<section class="sidebar">
-	<h2 class="hidden-title">Additional information</h2>
-	<aside class="block-author">
-		<h3 class="sidebar-title">About author</h3>
-		<div class="card-author">
-			<div class="image-author">
-				<img src="/src/images/author.png" alt="">
+		<nav class="posts-pagination">
+			<div class="pagination-list">
+				<a href="#">&laquo; OLDER POST</a>
+				<a href="#">1</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#">...</a>
+				<a href="#">8</a>
+				<a href="#">NEXT POST &raquo;</a>
 			</div>
-			<p class="card-author-subtitle">Kate Willems</p>
-			<p class="card-author-description">Food & cooking bloger</p>
-			<p class="card-author-text">Hi, I'm Sonia. Cooking is the way I express my creative side to the world. Welcome to
-				my Kitchen Corner on…</p>
-			<a href="#">Continue Reading</a>
-		</div>
-	</aside>
-	<section class="block-posts">
-		<h3 class="sidebar-title">Featured posts</h3>
-		<div class="box-posts">
-			<div class="card-post">
-				<div class="image-post">
-					<img src="/src/images/f_card1.png" alt="One of Saturn’s largest rings may be newer than anyone">
-				</div>
-				<h3 class="card-post-title">Jeans</h3>
-				<p class="card-post-description">One of Saturn’s largest rings may be newer than anyone</p>
-				<p class="card-post-data">June 6, 2019 By Rickie Baroch</p>
-			</div>
-			<div class="card-post">
-				<div class="image-post">
-					<img src="/src/images/f_card2.png" alt="One of Saturn’s largest rings may be newer than anyone">
-				</div>
-				<h3 class="card-post-title">City</h3>
-				<p class="card-post-description">One of Saturn’s largest rings may be newer than anyone</p>
-				<p class="card-post-data">June 6, 2019 By Rickie Baroch</p>
-			</div>
-			<div class="card-post">
-				<div class="image-post">
-					<img src="/src/images/f_card3.png" alt="One of Saturn’s largest rings may be newer than anyone">
-				</div>
-				<h3 class="card-post-title">Photography</h3>
-				<p class="card-post-description">One of Saturn’s largest rings may be newer than anyone</p>
-				<p class="card-post-data">June 6, 2019 By Rickie Baroch</p>
-			</div>
-		</div>
+		</nav>
 	</section>
-	<section class="categories">
-		<h3 class="sidebar-title">Categories</h3>
-		<ul class="categories-list">
-			<li class="categories-item">
-				<button type="button">Fashion</button>
-				<p>(23)</p></li>
-			<li class="categories-item">
-				<button type="button">Style & clothes</button>
-				<p>(7)</p></li>
-			<li class="categories-item">
-				<button type="button">Minimalism</button>
-				<p>(16)</p></li>
-			<li class="categories-item">
-				<button type="button">Black & White</button>
-				<p>(5)</p></li>
-			<li class="categories-item">
-				<button type="button">Modern clothes</button>
-				<p>(12)</p></li>
-		</ul>
-	</section>
-	<section class="block-social">
-		<h3 class="sidebar-title">Social media</h3>
-		<div class="box-social-cards">
-			<a href="#" class="social-card-link">
-				<figure class="social-card">
-					<img src="/src/images/facebook-logo-big.svg" alt="Facebook logo" class="social-card-logo">
-					<p class="social-card-reactions">32k likes</p>
-				</figure>
-			</a>
-			<a href="#" class="social-card-link">
-				<figure class="social-card">
-					<img src="/src/images/pinterest-logo-big.svg" alt="Pinterest logo" class="social-card-logo">
-					<p class="social-card-reactions">814 followers</p>
-				</figure>
-			</a>
-			<a href="#" class="social-card-link">
-				<figure class="social-card">
-					<img src="/src/images/vimeo-logo-big.svg" alt="Vimeo logo" class="social-card-logo">
-					<p class="social-card-reactions">165 followers</p>
-				</figure>
-			</a>
-			<a href="#" class="social-card-link">
-				<figure class="social-card">
-					<img src="/src/images/dribble-logo-big.svg" alt="Dribble logo" class="social-card-logo">
-					<p class="social-card-reactions">6 followers</p>
-				</figure>
-			</a>
-			<a href="#" class="social-card-link">
-				<figure class="social-card">
-					<img src="/src/images/twitter-logo-big.svg" alt="Twitter logo" class="social-card-logo">
-					<p class="social-card-reactions">130k followers</p>
-				</figure>
-			</a>
-			<a href="#" class="social-card-link">
-				<figure class="social-card">
-					<img src="/src/images/behance-logo-big.svg" alt="Behance logo" class="social-card-logo">
-					<p class="social-card-reactions">37k followers</p>
-				</figure>
-			</a>
-			<a href="#" class="social-card-link">
-				<figure class="social-card">
-					<img src="/src/images/instagram-logo-big.svg" alt="Instagram logo" class="social-card-logo">
-					<p class="social-card-reactions">854k followers</p>
-				</figure>
-			</a>
-			<a href="#" class="social-card-link">
-				<figure class="social-card">
-					<img src="/src/images/youtube-logo-big.svg" alt="Youtube logo" class="social-card-logo">
-					<p class="social-card-reactions">52k subscribers</p>
-				</figure>
-			</a>
-			<a href="#" class="social-card-link">
-				<figure class="social-card">
-					<img src="/src/images/google-plus-logo-big.svg" alt="Google+ logo" class="social-card-logo">
-					<p class="social-card-reactions">642 followers</p>
-				</figure>
-			</a>
-		</div>
-	</section>
-	<section class="block-tags">
-		<h3 class="sidebar-title">Tags</h3>
-		<div class="box-btn-tags">
-			<button type="button" class="tag">Business</button>
-			<button type="button" class="tag">Freelance</button>
-			<button type="button" class="tag">Money</button>
-			<button type="button" class="tag">Experience</button>
-			<button type="button" class="tag">Lifestyle</button>
-			<button type="button" class="tag">SEO</button>
-			<button type="button" class="tag">Wordpress</button>
-			<button type="button" class="tag">Marketing</button>
-			<button type="button" class="tag">UX</button>
-			<button type="button" class="tag">Modern</button>
-			<button type="button" class="tag">Success</button>
-			<button type="button" class="tag">Nature</button>
-		</div>
+	<section class="sidebar">
+		<h2 class="hidden-title">Additional information</h2>
+		<aside class="block-author">
+			<h3 class="sidebar-title">About author</h3>
+			<div class="card-author">
+				<div class="image-author">
+					<img src="/src/images/author.png" alt="">
+				</div>
+				<p class="card-author-subtitle">Kate Willems</p>
+				<p class="card-author-description">Food & cooking bloger</p>
+				<p class="card-author-text">Hi, I'm Sonia. Cooking is the way I express my creative side to the world. Welcome
+					to
+					my Kitchen Corner on…</p>
+				<a href="#">Continue Reading</a>
+			</div>
+		</aside>
+		<section class="block-posts">
+			<h3 class="sidebar-title">Featured posts</h3>
+			<div class="box-posts">
+				<div class="card-post">
+					<div class="image-post">
+						<img src="/src/images/f_card1.png" alt="One of Saturn’s largest rings may be newer than anyone">
+					</div>
+					<h3 class="card-post-title">Jeans</h3>
+					<p class="card-post-description">One of Saturn’s largest rings may be newer than anyone</p>
+					<p class="card-post-data">June 6, 2019 By Rickie Baroch</p>
+				</div>
+				<div class="card-post">
+					<div class="image-post">
+						<img src="/src/images/f_card2.png" alt="One of Saturn’s largest rings may be newer than anyone">
+					</div>
+					<h3 class="card-post-title">City</h3>
+					<p class="card-post-description">One of Saturn’s largest rings may be newer than anyone</p>
+					<p class="card-post-data">June 6, 2019 By Rickie Baroch</p>
+				</div>
+				<div class="card-post">
+					<div class="image-post">
+						<img src="/src/images/f_card3.png" alt="One of Saturn’s largest rings may be newer than anyone">
+					</div>
+					<h3 class="card-post-title">Photography</h3>
+					<p class="card-post-description">One of Saturn’s largest rings may be newer than anyone</p>
+					<p class="card-post-data">June 6, 2019 By Rickie Baroch</p>
+				</div>
+			</div>
+		</section>
+		<section class="categories">
+			<h3 class="sidebar-title">Categories</h3>
+			<ul class="categories-list">
+				<li class="categories-item">
+					<button type="button">Fashion</button>
+					<p>(23)</p></li>
+				<li class="categories-item">
+					<button type="button">Style & clothes</button>
+					<p>(7)</p></li>
+				<li class="categories-item">
+					<button type="button">Minimalism</button>
+					<p>(16)</p></li>
+				<li class="categories-item">
+					<button type="button">Black & White</button>
+					<p>(5)</p></li>
+				<li class="categories-item">
+					<button type="button">Modern clothes</button>
+					<p>(12)</p></li>
+			</ul>
+		</section>
+		<section class="block-social">
+			<h3 class="sidebar-title">Social media</h3>
+			<div class="box-social-cards">
+				<a href="#" class="social-card-link">
+					<figure class="social-card">
+						<img src="/src/images/facebook-logo-big.svg" alt="Facebook logo" class="social-card-logo">
+						<p class="social-card-reactions">32k likes</p>
+					</figure>
+				</a>
+				<a href="#" class="social-card-link">
+					<figure class="social-card">
+						<img src="/src/images/pinterest-logo-big.svg" alt="Pinterest logo" class="social-card-logo">
+						<p class="social-card-reactions">814 followers</p>
+					</figure>
+				</a>
+				<a href="#" class="social-card-link">
+					<figure class="social-card">
+						<img src="/src/images/vimeo-logo-big.svg" alt="Vimeo logo" class="social-card-logo">
+						<p class="social-card-reactions">165 followers</p>
+					</figure>
+				</a>
+				<a href="#" class="social-card-link">
+					<figure class="social-card">
+						<img src="/src/images/dribble-logo-big.svg" alt="Dribble logo" class="social-card-logo">
+						<p class="social-card-reactions">6 followers</p>
+					</figure>
+				</a>
+				<a href="#" class="social-card-link">
+					<figure class="social-card">
+						<img src="/src/images/twitter-logo-big.svg" alt="Twitter logo" class="social-card-logo">
+						<p class="social-card-reactions">130k followers</p>
+					</figure>
+				</a>
+				<a href="#" class="social-card-link">
+					<figure class="social-card">
+						<img src="/src/images/behance-logo-big.svg" alt="Behance logo" class="social-card-logo">
+						<p class="social-card-reactions">37k followers</p>
+					</figure>
+				</a>
+				<a href="#" class="social-card-link">
+					<figure class="social-card">
+						<img src="/src/images/instagram-logo-big.svg" alt="Instagram logo" class="social-card-logo">
+						<p class="social-card-reactions">854k followers</p>
+					</figure>
+				</a>
+				<a href="#" class="social-card-link">
+					<figure class="social-card">
+						<img src="/src/images/youtube-logo-big.svg" alt="Youtube logo" class="social-card-logo">
+						<p class="social-card-reactions">52k subscribers</p>
+					</figure>
+				</a>
+				<a href="#" class="social-card-link">
+					<figure class="social-card">
+						<img src="/src/images/google-plus-logo-big.svg" alt="Google+ logo" class="social-card-logo">
+						<p class="social-card-reactions">642 followers</p>
+					</figure>
+				</a>
+			</div>
+		</section>
+		<section class="block-tags">
+			<h3 class="sidebar-title">Tags</h3>
+			<div class="box-btn-tags">
+				<button type="button" class="tag">Business</button>
+				<button type="button" class="tag">Freelance</button>
+				<button type="button" class="tag">Money</button>
+				<button type="button" class="tag">Experience</button>
+				<button type="button" class="tag">Lifestyle</button>
+				<button type="button" class="tag">SEO</button>
+				<button type="button" class="tag">Wordpress</button>
+				<button type="button" class="tag">Marketing</button>
+				<button type="button" class="tag">UX</button>
+				<button type="button" class="tag">Modern</button>
+				<button type="button" class="tag">Success</button>
+				<button type="button" class="tag">Nature</button>
+			</div>
+		</section>
 	</section>
 </section>
 <p class="follow-link"><a href="#" target="_blank">Follow our @instagram_name</a></p>
